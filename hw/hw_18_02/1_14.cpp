@@ -2,8 +2,12 @@
 
 struct smartstr {
     int a;
-    private:
-        void* operator new[](size_t);
+    smartstr(int b) {
+        a = b;
+    }
+    // private:
+    //     smartstr() {};
+    //     void* operator new[](size_t);
 };
 
 int main() {

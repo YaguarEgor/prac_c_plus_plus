@@ -11,23 +11,15 @@ wolf
 wolf
 wolf
 
-№1.13)
-struct mystr { 
-    int a, b; 
-    private:
-        mystr(const mystr&);
-}; 
-
-int i = sizeof(mystr); 
-
-int f(mystr s) { 
-    return 0; 
-} 
-
 №3)
 Constr
 C_copy
-Destr 
 C_copy
+Destr 
 Destr
+Destr
+
 Можно передавать оба параметра по ссылке, а не по значению
+
+A b;
+A a = b;

@@ -1,12 +1,12 @@
 #include <iostream>
-using namespace std;
+using namespace std; //используем пространство имен
 
 //ошибка заключалась в том, что поля изначально приватные
 
 class Cl {
     public: //вот и исправление
         int x, y;
-};
+}; //точку с запятой забыли
    
 int main () {
     Cl c;
